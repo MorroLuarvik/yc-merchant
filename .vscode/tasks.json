@@ -6,13 +6,13 @@
         {
             "label": "archive",
             "type": "shell",
-            "command": "${workspaceFolder}\\builder\\builder.ps1 ${fileDirname} task.zip c:\\temp",
+            "command": "${workspaceFolder}${pathSeparator}..${pathSeparator}yc-cloud-builder${pathSeparator}builder.ps1 ${fileDirname} task.zip c:\\temp",
             "problemMatcher": []
         },
         {
             "label": "execute",
             "type": "shell",
-            "command": "${workspaceFolder}\\builder\\executor.ps1 ${fileDirname}",
+            "command": "${workspaceFolder}${pathSeparator}..${pathSeparator}yc-cloud-builder${pathSeparator}executor.ps1 ${fileDirname}",
             "problemMatcher": []
         },
     ]
