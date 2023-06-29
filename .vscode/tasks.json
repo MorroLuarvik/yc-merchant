@@ -8,6 +8,12 @@
             "type": "shell",
             "command": "${workspaceFolder}\\builder\\builder.ps1 ${fileDirname} task.zip c:\\temp",
             "problemMatcher": []
-        }
+        },
+        {
+            "label": "execute",
+            "type": "shell",
+            "command": "${workspaceFolder}\\builder\\executor.ps1 ${fileDirname}",
+            "problemMatcher": []
+        },
     ]
 }
