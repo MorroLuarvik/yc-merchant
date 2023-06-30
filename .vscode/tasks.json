@@ -12,7 +12,7 @@
         {
             "label": "execute",
             "type": "shell",
-            "command": "${workspaceFolder}${pathSeparator}..${pathSeparator}yc-cloud-builder${pathSeparator}executor.ps1 ${fileDirname}",
+            "command": "${workspaceFolder}${pathSeparator}..${pathSeparator}yc-cloud-builder${pathSeparator}executor.ps1 ${fileDirname} ${workspaceFolder}",
             "problemMatcher": []
         },
     ]

@@ -1,0 +1,11 @@
+{
+    "functionFolder": "",
+    "functions": {
+        "proc1": {
+            "handler": "handler"
+        },
+        "proc2": {
+            "handler": "huyandler"
+        }
+    } 
+}
