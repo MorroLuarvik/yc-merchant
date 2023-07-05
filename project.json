@@ -2,10 +2,12 @@
     "functionFolder": "",
     "functions": {
         "proc1": {
-            "handler": "handler"
+            "handler": "handler",
+            "test": 333
         },
         "proc2": {
-            "handler": "huyandler"
+            "handler": "huyandler",
+            "test": 666 
         }
     } 
 }
